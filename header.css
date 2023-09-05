@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.nav {
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.burger-menu {
+    display: none;
+    width: 30px;
+    height: 100px;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.hidden-nav {
+    display: none;
+    position: absolute;  
+}
+.banner {
+    height: 280px;
+    background-image: url(image/life-in-mexico-landscape-with-field_23-2149862588.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.burger-menu:hover .hidden-nav {
+    display: block;
+}

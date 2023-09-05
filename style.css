@@ -1,0 +1,133 @@
+body {
+    background-color: lightgray;
+    font-family:  "roboto", sans-serif;
+}
+i {
+    font-weight: bold;
+    padding-left: 80px;
+}
+
+.about{
+    padding: 20px 30px 0 30px;
+}
+.title-about {
+    text-align: center;
+}
+.main-about {
+    display: flex;
+    gap: 10px;
+}
+.text-about {
+    padding-left: 30px;
+}
+.icon-about {
+    text-align: center;
+    justify-content: center;
+}
+.title-work {
+    text-align: center;
+}
+.foto-works-up {
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.foto-works-bottom {
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+h5 {
+    
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 350px;
+    flex-wrap: wrap;
+    }
+
+.team-foto {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.title-teams {
+    text-align: center;
+    padding-top: 30px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    }
+
+
+.test-card {
+    display: flex;
+    background-color: white;
+    height:auto;
+    width: 500px;
+    height: 200px;
+}
+.test-foto {
+    padding: 10px 10px 0 10px;
+}
+.title-test {
+    text-align: center;
+    padding-top: 30px;
+}
+/* form action */
+form {
+    flex-wrap: wrap;
+}
+.form-container {
+    width: auto;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    gap: 100px;
+}
+.column {
+  width: 500px;
+  height: 400px;   
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;    
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    height: 40px;
+}
+textarea {
+    height: 150px;    
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #140857;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*  footer  */
+.footer-container {
+    display: flex;
+    background-color:#140857;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }

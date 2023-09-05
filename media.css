@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 948px) {}
+@media screen and (max-width: 800px) {
+.nav {
+    display: none;
+}
+.burger-menu {
+    display: block;
+}
+}
+
+@media screen and (max-width: 678px) {}
+@media screen and (max-width: 550px) {}
+@media screen and (max-width: 320px) {}
